@@ -27,3 +27,5 @@ Editer le fichier *nginx.yaml*
 ```Shell
 ansible-playbook -i inventory nginx.yaml
 ```
+
+Lien vers le dossier [corrections](../Correction)
