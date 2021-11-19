@@ -14,7 +14,7 @@ main_service=nginx
 
 Editer le fichier *nginx.yaml*
 
-```
+```yaml
   - name: Start Service
     ansible.builtin.systemd:
       name: "{{ main_service }}"
